@@ -1,5 +1,7 @@
 ﻿using FSISSystem.DAL;
 using FSISSystem.ENTITIES;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace FSISSystem.BLL
 {
@@ -13,5 +15,12 @@ namespace FSISSystem.BLL
             }
         }
 
+        public List<Team> Team_List()
+        {
+            using (var context = new FSISContext())
+            {
+                return context.Teams.ToList();
+            }
+        }
     }
 }

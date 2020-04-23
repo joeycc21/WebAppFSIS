@@ -52,8 +52,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarSubMenu" data-toggle="dropdown" runat="server" style="color: black" aria-haspopup="true" aria-expanded="false">ExercisePages</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarSubMenu">
-                                    <a class="dropdown-item" href="~/ExercisePages/ExerciseHome.aspx" style="color: black" runat="server">ExerciseHome</a>
-                                    <a class="dropdown-item" href="~/ExercisePages/SimpleQuery.aspx" style="color: black" runat="server">Simple PKey Query</a>
+                                    <a class="dropdown-item" href="~/ExercisePages/CRUD.aspx" style="color: black" runat="server">CRUD</a>
                                 </div>
                             </li>
                             <li class="nav-item">
